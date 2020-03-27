@@ -65,6 +65,16 @@ Go to the android app and search for the new yoke server.
 Click on the upper right corner 3 dots, and click "Upgrade gamepad"
 Click refresh and you should see the joystick.
 
+## Recommended games
+
+These are perfect couch games to play with friends and this joystick
+
+- [Lovers in a Dangerous Spacetime](https://store.steampowered.com/app/252110/Lovers_in_a_Dangerous_Spacetime/)
+- [BattleBlock Theater](https://store.steampowered.com/app/238460/BattleBlock_Theater/)
+- [Crawl](https://store.steampowered.com/app/293780/Crawl/)
+
+If you know more let me know.
+
 ## Windows
 
 I haven't tested it on windows.
