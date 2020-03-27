@@ -1,0 +1,4 @@
+gamepad configuration:
+https://github.com/ValveSoftware/steam-for-linux/issues/5621#issuecomment-433751426
+with the generated configuration, copy the result and paste it in a env variable, that will make your joystick available
+
