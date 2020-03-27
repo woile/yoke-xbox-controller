@@ -1,14 +1,14 @@
 # Yoke Xbox Controller (desktop client)
 
-![Controller](media/controller.jpeg)
-
 > Xbox controller for your android mobile phone.
 
+![Controller](media/controller.jpeg)
+
 This project is built on top of the awesome [yoke](https://github.com/rmst/yoke),
-but just provides one joystick: a Xbox Controller, and all the tools needed for
+but just provides one joystick: an Xbox Controller, and all the tools needed for
 using it with [Steam](https://store.steampowered.com/).
 
-Android APK: [download](./devel/app-debug.apk)
+**Android APK**: [download](https://github.com/Woile/yoke-xbox-controller/raw/master/devel/app-debug.apk)
 
 If you don't trust the apk you can try downloading the official releases,
 but they may not be up-to-date, [this issue](https://github.com/rmst/yoke-android/pull/9) was present on android > 9.
@@ -23,7 +23,6 @@ You should have the latest WebKit in your android device.
 # Requires Python 3.5+ which comes pre-installed in Ubuntu 16.04 and after.
 git clone https://github.com/Woile/yoke-xbox-controller
 cd yoke
-# Now tweak files in e.g. yoke/assets/joypad
 python3 -m venv venv
 . venv/bin/activate
 python -m pip install -e .
@@ -43,7 +42,7 @@ And then you have to export this variable to your env for Steam:
 export SDL_GAMECONTROLLERCONFIG="06000000596f6b650000000000000000,xbox-controller,platform:Linux,a:b0,b:b1,x:b3,y:b2,back:b8,guide:b10,start:b9,leftshoulder:b4,rightshoulder:b5,leftx:a0,lefty:a1,rightx:a2,righty:a3,lefttrigger:b6,righttrigger:b7,"
 ```
 
-IF you want you can add the rule to your `.bashrc` to avoid adding the env
+If you want you can add the rule to your `.bashrc` to avoid adding the env
 every time you restart your machine.
 
 ```bash
@@ -61,6 +60,10 @@ Run a yoke server
 ```bash
 yoke
 ```
+
+Go to the android app and search for the new yoke server.
+Click on the upper right corner 3 dots, and click "Upgrade gamepad"
+Click refresh and you should see the joystick.
 
 ## Windows
 
